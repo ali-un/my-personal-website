@@ -12,7 +12,7 @@ const Introduction = () => {
             width={350}
             height={350}
             alt=""
-            className="rounded-3xl"
+            className="rounded-md"
           />
         </div>
         <h1 className="text-light mb-8 text-[3.5rem] font-extrabold max-md:text-4xl">
@@ -22,7 +22,7 @@ const Introduction = () => {
         <div className="mb-8 flex gap-3">
           <Link href="/projects">
             <button className="bg-primary hover:bg-primary_alt text-light rounded-2xl px-6 py-3 font-medium">
-              نمومه کارها
+              نمونه کارها
             </button>
           </Link>
           <button className="bg-secondary text-light hover:bg-dark rounded-2xl px-6 py-3 font-medium">
