@@ -1,5 +1,6 @@
 import local_font from "next/font/local";
 import "./globals.css";
+import Introduction from "@/components/Introduction";
 
 export const metadata = {
   title: "Ali Mostafavi",
@@ -14,7 +15,10 @@ const estedad = local_font({
 export default function RootLayout({ children }) {
   return (
     <html lang="fa" dir="rtl">
-      <body className={`${estedad.className} select-none`}>{children}</body>
+      <body className={`${estedad.className} bg-background select-none`}>
+        <Introduction />
+        {children}
+      </body>
     </html>
   );
 }
