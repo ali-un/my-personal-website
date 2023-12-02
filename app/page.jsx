@@ -5,11 +5,11 @@ const page = () => {
   return (
     <>
       <section className="container mx-auto">
-        <div className="grid h-screen grid-cols-2 max-md:grid-cols-1">
-          <div className="flex h-full items-center justify-center max-md:pt-4">
+        <div className="grid h-screen grid-cols-2 max-lg:grid-cols-1">
+          <div className="flex h-full items-center justify-center max-lg:py-4">
             <Introduction />
           </div>
-          <div className="flex items-center justify-center max-md:pt-44">
+          <div className="flex items-center justify-center text-center max-lg:p-3 max-lg:pt-24 max-lg:text-right">
             <AboutMe />
           </div>
         </div>

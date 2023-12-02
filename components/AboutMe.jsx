@@ -1,10 +1,13 @@
+import { my_info, my_skills } from "@/constants";
+import Image from "next/image";
+
 const AboutMe = () => {
   return (
     <>
       <div className="">
-        <h2 className="text-light text-2xl font-bold mb-8">درباره من</h2>
+        <h2 className="mb-8 text-2xl font-bold text-light">درباره من</h2>
         <div className="mb-12">
-          <p className="text-text">
+          <p className="text-right text-text">
             سلام!
             <br />
             علی مصطفوی هستم مخلص شما. یه برنامه نویس ساده که چند سالی میشه تو
@@ -18,11 +21,23 @@ const AboutMe = () => {
           </p>
         </div>
         <div className="grid grid-cols-2 gap-3 max-md:grid-cols-1">
-          <div className="bg-dark flex h-[25rem] items-center justify-center rounded-2xl">
-            2
+          <div className="flex h-[25rem] flex-col justify-center gap-y-4 rounded-2xl p-2 text-right">
+            {my_info.map((item) => {
+              return (
+                <p className="flex gap-x-1 text-text">
+                  {item.icon}
+                  {item.content}
+                </p>
+              );
+            })}
           </div>
-          <div className="bg-dark flex h-[25rem] items-center justify-center rounded-3xl">
-            2
+          <div className="flex h-[25rem]  justify-center rounded-3xl bg-dark p-2 text-right">
+            <p>مهرتهای من:</p>
+            {my_skills.map((tech) => {
+              return (
+                <Image src={tech.icon} width={40} priority height={40} alt="" />
+              );
+            })}
           </div>
         </div>
       </div>
