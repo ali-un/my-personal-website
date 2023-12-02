@@ -9,7 +9,7 @@ const Socials = () => {
           return (
             <Link
               href={item.href}
-              className="text-text hover:text-primary text-2xl transition-all"
+              className="text-text hover:text-primary text-[1.60rem] transition-all"
             >
               {item.icon}
             </Link>

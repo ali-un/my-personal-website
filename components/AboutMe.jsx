@@ -5,8 +5,8 @@ import Link from "next/link";
 const AboutMe = () => {
   return (
     <>
-      <div className="p-2">
-        <h2 className="mb-8 text-2xl font-bold text-light">درباره من</h2>
+      <div className="p-3">
+        <h2 className="mb-8 text-2xl font-bold max-md:text-center text-light">درباره من</h2>
         <div className="mb-12">
           <p className="text-right text-text">
             سلام!
@@ -33,7 +33,7 @@ const AboutMe = () => {
             })}
           </div>
           <div className="flex h-[25rem] flex-col max-md:pt-24" dir="ltr">
-            <h2 className="mb-12 text-2xl font-bold text-light">مهارتهای من</h2>
+            <h2 className="mb-12 text-2xl font-bold max-md:text-center text-light">مهارتهای من</h2>
             <div className="grid grid-cols-2 gap-8">
               {my_skills.map((item) => {
                 return (

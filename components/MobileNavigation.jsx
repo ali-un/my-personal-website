@@ -8,8 +8,8 @@ const MobileNavigation = () => {
   const path = usePathname();
   return (
     <>
-      <nav className="fixed bottom-2 flex h-16 w-screen justify-center lg:hidden">
-        <div className="flex items-center justify-center gap-x-5 rounded-3xl bg-dark">
+      <nav className="fixed bottom-2 flex w-screen items-center justify-center lg:hidden">
+        <div className="flex justify-center w-52 h-16 rounded-3xl items-center gap-x-7 bg-dark">
           {navigation.map((item, index) => {
             const active =
               (path.includes(item.route) && item.route.length > 1) ||
@@ -18,9 +18,7 @@ const MobileNavigation = () => {
               <Link
                 href={item.route}
                 key={index}
-                className={`px-6 text-3xl ${
-                  active ? "text-primary" : "text-light"
-                }`}
+                className={`text-3xl ${active ? "text-primary" : "text-light"}`}
               >
                 {item.icon}
               </Link>
