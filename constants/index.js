@@ -1,6 +1,24 @@
 import "bootstrap-icons/font/bootstrap-icons.css";
 import Link from "next/link";
 
+export const navigation = [
+  {
+    icon: <i class="bi bi-house-fill" />,
+    name: "Home",
+    route: "/",
+  },
+  {
+    icon: <i class="bi bi-briefcase-fill" />,
+    name: "Projects",
+    route: "/projects",
+  },
+  {
+    icon: <i class="bi bi-chat-square-text-fill" />,
+    name: "Contact Me",
+    route: "/contact",
+  },
+];
+
 export const socials = [
   {
     icon: <i className="bi bi-github" />,
