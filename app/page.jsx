@@ -9,7 +9,7 @@ const page = () => {
           <div className="flex h-full items-center justify-center max-lg:py-4">
             <Introduction />
           </div>
-          <div className="flex items-center justify-center text-center max-lg:p-3 max-lg:pt-24 max-lg:text-right">
+          <div className="flex items-center justify-center text-center max-lg:pb-24 max-lg:pt-24 max-lg:text-right">
             <AboutMe />
           </div>
         </div>
