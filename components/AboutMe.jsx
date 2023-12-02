@@ -1,5 +1,6 @@
 import { my_info, my_skills } from "@/constants";
 import Image from "next/image";
+import Link from "next/link";
 
 const AboutMe = () => {
   return (
@@ -31,12 +32,9 @@ const AboutMe = () => {
               );
             })}
           </div>
-          <div className="flex h-[25rem]  justify-center rounded-3xl bg-dark p-2 text-right">
-            <p>مهرتهای من:</p>
-            {my_skills.map((tech) => {
-              return (
-                <Image src={tech.icon} width={40} priority height={40} alt="" />
-              );
+          <div className="flex flex-wrap">
+            {my_skills.map((item) => {
+              return <i className="">{item.icon}</i>;
             })}
           </div>
         </div>
