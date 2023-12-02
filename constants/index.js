@@ -3,17 +3,17 @@ import Link from "next/link";
 
 export const navigation = [
   {
-    icon: <i class="bi bi-house-fill" />,
+    icon: <i className="bi bi-house-fill" />,
     name: "Home",
     route: "/",
   },
   {
-    icon: <i class="bi bi-briefcase-fill" />,
+    icon: <i className="bi bi-briefcase-fill" />,
     name: "Projects",
     route: "/projects",
   },
   {
-    icon: <i class="bi bi-chat-square-text-fill" />,
+    icon: <i className="bi bi-chat-square-text-fill" />,
     name: "Contact Me",
     route: "/contact",
   },
@@ -53,13 +53,13 @@ export const my_info = [
   },
   {
     icon: <i className="bi bi-telephone-fill" />,
-    content: "09375240441",
+    content: <span>09375240441</span>,
   },
   {
     icon: <i className="bi bi-envelope-at-fill" />,
     content: (
-      <Link href="" className="text-primary">
-        ali.mostaafavi@gmail.com
+      <Link href="https://ali.mostaafavi@gmail.com" className="text-primary">
+        ایمیل من
       </Link>
     ),
   },

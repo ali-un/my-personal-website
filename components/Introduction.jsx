@@ -7,7 +7,7 @@ const Introduction = () => {
   return (
     <>
       <div className="flex flex-col items-center justify-center">
-        <div className="mb-10 max-md:w-[300px]">
+        <div className="mb-10 max-md:w-[280px]">
           <Image
             src="/images/profile.jpg"
             width={350}
