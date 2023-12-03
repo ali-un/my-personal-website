@@ -5,11 +5,12 @@ const Socials = () => {
   return (
     <div>
       <div className="flex gap-x-6">
-        {socials.map((item) => {
+        {socials.map((item, index) => {
           return (
             <Link
+              key={index}
               href={item.href}
-              className="text-text hover:text-primary text-[1.60rem] transition-all"
+              className="text-3xl text-text transition-all hover:text-light"
             >
               {item.icon}
             </Link>

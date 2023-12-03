@@ -29,10 +29,6 @@ export const socials = [
     href: "",
   },
   {
-    icon: <i className="bi bi-twitter-x" />,
-    href: "",
-  },
-  {
     icon: <i className="bi bi-telegram" />,
     href: "",
   },

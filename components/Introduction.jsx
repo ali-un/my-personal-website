@@ -10,10 +10,10 @@ const Introduction = () => {
         <div className="mb-10 max-md:w-[280px]">
           <Image
             src="/images/profile.jpg"
-            width={350}
-            height={350}
+            width={360}
+            height={360}
             alt=""
-            className="border rounded-3xl border-primary p-1 shadow-md shadow-primary"
+            className="rounded-full"
           />
         </div>
         <h1 className="mb-8 text-[3.5rem] font-extrabold text-light max-md:text-4xl">
@@ -23,13 +23,13 @@ const Introduction = () => {
           برنامه نویس <i className="bi bi-dot text-primary"></i> طراح وب{" "}
           <i className="bi bi-dot text-primary"></i> امنیت و شبکه
         </p>
-        <div className="mb-8 flex gap-3">
+        <div className="mb-8 flex gap-4">
           <Link href="/projects">
-            <button className="rounded-2xl bg-primary px-6 py-3 font-medium text-light hover:bg-primary_alt">
+            <button className="rounded-2xl bg-light px-5 py-3 font-medium text-background transition-all ease-in hover:scale-105 active:transform">
               نمونه کارها
             </button>
           </Link>
-          <button className="rounded-2xl bg-secondary px-6 py-3 font-medium text-light hover:bg-dark">
+          <button className="rounded-2xl bg-gray px-6 py-3 font-medium text-light transition-all ease-in hover:scale-95 active:transform">
             دانلود رزومه
           </button>
         </div>
