@@ -1,4 +1,4 @@
-import { my_info, my_skills, my_skills_2 } from "@/constants";
+import { my_info, my_skills } from "@/constants";
 
 const AboutMe = () => {
   return (
@@ -37,12 +37,15 @@ const AboutMe = () => {
               <h2 className="mb-12 text-center text-2xl font-bold text-light">
                 مهارتهای من
               </h2>
-              <div className="grid grid-cols-2 gap-8">
+              <div className="grid grid-cols-3 gap-8">
                 {my_skills.map((item, index) => {
                   return (
                     <div className="flex justify-center">
-                      <div key={index} className="flex items-center gap-x-2">
-                        <i className="">{item.icon}</i>
+                      <div
+                        key={index}
+                        className="flex flex-col items-center gap-y-2"
+                      >
+                        <i>{item.icon}</i>
                         <p className="text-sm text-text">{item.name}</p>
                       </div>
                     </div>

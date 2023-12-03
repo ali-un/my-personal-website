@@ -5,8 +5,8 @@ import MobileNav from "./MobileNav";
 const Navbar = () => {
   return (
     <>
-      <nav className="fixed left-0 right-0 top-0 border-b border-text bg-background py-4">
-        <section className="container mx-auto max-md:px-3">
+      <nav className="fixed left-0 right-0 top-0  bg-gray py-4">
+        <section className="container mx-auto px-3">
           <div className="flex items-center justify-between">
             <Link href="/" className="text-2xl font-bold text-light">
               ع
