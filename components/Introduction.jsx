@@ -7,7 +7,7 @@ const Introduction = () => {
   return (
     <>
       <div className="flex flex-col items-center justify-center">
-        <div className="mb-10 max-md:w-[280px]">
+        <div className=" mb-2 max-md:w-[280px]">
           <Image
             src="/images/profile.jpg"
             width={360}
@@ -16,7 +16,7 @@ const Introduction = () => {
             className="rounded-full"
           />
         </div>
-        <h1 className="mb-8 text-[3.5rem] font-extrabold text-light max-md:text-4xl">
+        <h1 className="mb-8 text-[3.2rem] font-extrabold text-light max-md:text-4xl">
           علی مصطفوی
         </h1>
         <p className="mb-6 text-text">

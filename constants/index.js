@@ -3,18 +3,15 @@ import Link from "next/link";
 
 export const navigation = [
   {
-    icon: <i className="bi bi-house-fill" />,
-    name: "Home",
+    name: "خانه",
     route: "/",
   },
   {
-    icon: <i className="bi bi-briefcase-fill" />,
-    name: "Projects",
+    name: "نمونه کارها",
     route: "/projects",
   },
   {
-    icon: <i className="bi bi-chat-square-text-fill" />,
-    name: "Contact Me",
+    name: "ارتباط با من",
     route: "/contact",
   },
 ];
