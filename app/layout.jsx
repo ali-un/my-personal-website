@@ -8,7 +8,7 @@ export const metadata = {
 };
 
 const estedad = local_font({
-  src: "../public/fonts/estedad.woff2",
+  src: "../public/fonts/mikhak.woff2",
   display: "swap",
 });
 
