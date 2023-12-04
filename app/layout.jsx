@@ -11,12 +11,14 @@ const mikhak = local_font({
   display: "swap",
 });
 
-export default function RootLayout({ children }) {
+const RootLayout = ({ children }) => {
   return (
     <html lang="fa" dir="rtl">
-      <body className={`${mikhak.className} select-none bg-black`}>
+      <body className={`${mikhak.className} bg-background select-none`}>
         {children}
       </body>
     </html>
   );
-}
+};
+
+export default RootLayout;
