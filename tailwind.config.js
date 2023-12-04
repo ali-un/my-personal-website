@@ -6,7 +6,9 @@ module.exports = {
     "./app/**/*.{js,jsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {},
+    },
   },
   plugins: [],
 };
