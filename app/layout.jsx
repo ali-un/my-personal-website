@@ -1,13 +1,12 @@
 import local_font from "next/font/local";
 import "./globals.css";
-import Navbar from "@/components/Navbar";
 
 export const metadata = {
   title: "Ali Mostafavi",
   description: "Web Developer, Security, Programmer",
 };
 
-const estedad = local_font({
+const mikhak = local_font({
   src: "../public/fonts/mikhak.woff2",
   display: "swap",
 });
@@ -15,8 +14,7 @@ const estedad = local_font({
 export default function RootLayout({ children }) {
   return (
     <html lang="fa" dir="rtl">
-      <body className={`${estedad.className} select-none bg-background`}>
-        <Navbar />
+      <body className={`${mikhak.className} select-none bg-black`}>
         {children}
       </body>
     </html>
