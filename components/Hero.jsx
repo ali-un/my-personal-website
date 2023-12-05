@@ -16,16 +16,11 @@ const Hero = () => {
         />
       </div>
       {/* Content */}
-      <div className="flex flex-col max-lg:items-center max-lg:text-center lg:w-5/12">
+      <div className="flex flex-col max-lg:items-center max-lg:text-center">
         <h1 className="mb-12 text-6xl font-extrabold text-light max-md:text-5xl max-sm:text-4xl">
           علی مصطفوی
         </h1>
-        <p className="mb-8 px-2 text-text">
-          سلام. علی مصطفوی هستم در خدمت شما. معرفی کوچیکی از خودم، فعالیت هام و
-          ... میکنم. <br /> یه برنامه نویس معمولی! حدود چند سالی هست که به
-          برنامه نویسی و طراحی وب مشغولم و تلاش میکنم هرروز بهتر بشم.
-          <br />
-        </p>
+        <p className="mb-8 px-2 text-text">برنامه نویس، طراح وب، امنیت شبکه</p>
         {/* Buttons */}
         <div className="mb-8 flex items-center gap-3 max-lg:justify-center max-md:flex-col">
           <button className="rounded-2xl bg-primary px-6 py-3 font-medium text-light transition-all hover:bg-primary_alt active:scale-110">
