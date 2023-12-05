@@ -8,7 +8,7 @@ const Navbar = () => {
   const path = usePathname();
   return (
     <>
-      <nav className="fixed bottom-0 left-0 top-0 flex h-16 w-screen items-center justify-between bg-background px-4">
+      <nav className="fixed bottom-0 left-0 top-0 flex h-16 w-screen items-center justify-between border-b px-4">
         <Link href="/" className="text-3xl font-bold text-primary">
           ع مـ
         </Link>
