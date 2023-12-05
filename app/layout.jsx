@@ -1,5 +1,6 @@
 import local_font from "next/font/local";
 import "./globals.css";
+import Navbar from "@/components/Navbar";
 
 export const metadata = {
   title: "Ali Mostafavi",
@@ -14,7 +15,8 @@ const mikhak = local_font({
 const RootLayout = ({ children }) => {
   return (
     <html lang="fa" dir="rtl">
-      <body className={`${mikhak.className} bg-background select-none`}>
+      <body className={`${mikhak.className} bg-background`}>
+        <Navbar />
         {children}
       </body>
     </html>
