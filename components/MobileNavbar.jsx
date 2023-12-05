@@ -1,9 +1,12 @@
+"use client";
 import { navbar } from "@/constants";
 import Link from "next/link";
 import { useState } from "react";
+import { usePathname } from "next/navigation";
 
 const MobileNavbar = () => {
   const [show, close] = useState(false);
+  const path = usePathname();
   return (
     <>
       <nav className="md:hidden">
@@ -24,8 +27,18 @@ const MobileNavbar = () => {
           } absolute left-0 top-16 flex h-[50vh] w-screen flex-col items-center justify-center gap-y-14 bg-dark`}
         >
           {navbar.map((item, index) => {
+            const active =
+              (path.includes(item.route) && item.route.length > 1) ||
+              path === item.route;
             return (
-              <Link href={item.route} key={index} onClick={() => close(!show)}>
+              <Link
+                href={item.route}
+                key={index}
+                className={`${
+                  active ? "bg-primary" : ""
+                } rounded-2xl px-6 py-2 text-xl font-semibold text-light`}
+                onClick={() => close(!show)}
+              >
                 {item.name}
               </Link>
             );
