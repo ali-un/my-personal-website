@@ -1,6 +1,6 @@
 import local_font from "next/font/local";
 import "./globals.css";
-import Navbar from "@/components/Navbar";
+import Navigation from "@/components/Navigation";
 
 export const metadata = {
   title: "Ali Mostafavi",
@@ -16,7 +16,7 @@ const RootLayout = ({ children }) => {
   return (
     <html lang="fa" dir="rtl">
       <body className={`${mikhak.className} select-none bg-background`}>
-        <Navbar />
+        <Navigation />
         {children}
       </body>
     </html>

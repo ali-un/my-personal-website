@@ -1,4 +1,4 @@
-export const navbar = [
+export const nav = [
   {
     route: "/",
     name: "درباره من",
@@ -6,6 +6,10 @@ export const navbar = [
   {
     route: "/projects",
     name: "نمونه کارها",
+  },
+  {
+    route: "/services",
+    name: "خدمات",
   },
   {
     route: "/contact",

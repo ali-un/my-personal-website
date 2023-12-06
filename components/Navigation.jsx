@@ -1,19 +1,21 @@
 "use client";
-import { navbar } from "@/constants";
+import { nav } from "@/constants";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import MobileNavbar from "./MobileNavbar";
+import MobileNav from "./MobileNav";
 
-const Navbar = () => {
+const Navigation = () => {
   const path = usePathname();
   return (
     <>
-      <nav className="fixed bottom-0 left-0 top-0 flex h-16 w-screen items-center justify-between border-b px-4">
-        <Link href="/" className="text-3xl font-bold text-primary">
+      <nav className="fixed flex h-16 w-screen items-center justify-between bg-background px-4">
+        {/* Logo */}
+        <Link href="/" className="text-4xl font-extrabold text-primary">
           ع مـ
         </Link>
-        <div className="flex gap-x-6 max-md:hidden">
-          {navbar.map((item, index) => {
+        {/* Nav content */}
+        <div className="flex items-center gap-x-4 max-lg:hidden">
+          {nav.map((item, index) => {
             const active =
               (path.includes(item.route) && item.route.length > 1) ||
               path === item.route;
@@ -21,7 +23,7 @@ const Navbar = () => {
               <Link
                 href={item.route}
                 key={index}
-                className={`rounded-2xl px-4 py-2 font-medium text-light transition-all ${
+                className={`rounded-2xl px-5 py-2 font-medium text-light transition-all ${
                   active ? "bg-primary hover:text-light" : "hover:text-primary"
                 }`}
               >
@@ -30,10 +32,10 @@ const Navbar = () => {
             );
           })}
         </div>
-        <MobileNavbar />
+        <MobileNav />
       </nav>
     </>
   );
 };
 
-export default Navbar;
+export default Navigation;
