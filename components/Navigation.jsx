@@ -11,7 +11,7 @@ const Navigation = () => {
       <nav className="fixed flex h-16 w-screen items-center justify-between bg-background px-4">
         {/* Logo */}
         <Link href="/" className="text-4xl font-extrabold text-primary">
-          ع مـ
+          ع . مـ
         </Link>
         {/* Nav content */}
         <div className="flex items-center gap-x-4 max-lg:hidden">

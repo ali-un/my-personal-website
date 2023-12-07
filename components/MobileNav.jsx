@@ -15,63 +15,67 @@ const MobileNav = () => {
             className={`${show ? "hidden" : "flex"}`}
             viewBox="0 0 24 24"
             fill="none"
+            width={30}
+            height={30}
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
               d="M21.97 15V9C21.97 4 19.97 2 14.97 2H8.96997C3.96997 2 1.96997 4 1.96997 9V15C1.96997 20 3.96997 22 8.96997 22H14.97C19.97 22 21.97 20 21.97 15Z"
               stroke="#f2f3f5"
-              stroke-width="1.5"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="1.5"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             />
             <path
               d="M7.96997 2V22"
               stroke="#f2f3f5"
-              stroke-width="1.5"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="1.5"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             />
             <path
               d="M14.97 9.43994L12.41 11.9999L14.97 14.5599"
               stroke="#f2f3f5"
-              stroke-width="1.5"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="1.5"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             />
           </svg>
           <svg
             className={`${show ? "flex" : "hidden"}`}
             viewBox="0 0 24 24"
             fill="none"
+            width={30}
+            height={30}
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
               d="M13.9902 10.0099L14.8302 9.16992"
               stroke="#5865f2"
-              stroke-width="1.5"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="1.5"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             />
             <path
               d="M9.16992 14.8301L11.9199 12.0801"
               stroke="#5865f2"
-              stroke-width="1.5"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="1.5"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             />
             <path
               d="M14.8299 14.8299L9.16992 9.16992"
               stroke="#5865f2"
-              stroke-width="1.5"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="1.5"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             />
             <path
               d="M2 12.96V15C2 20 4 22 9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9"
               stroke="#5865f2"
-              stroke-width="1.5"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="1.5"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             />
           </svg>
         </button>
