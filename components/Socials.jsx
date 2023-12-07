@@ -6,7 +6,11 @@ const Socials = () => {
     <div className="flex gap-x-4">
       {socials.map((item, index) => {
         return (
-          <Link href={item.href} key={index}>
+          <Link
+            href={item.href}
+            key={index}
+            className="transition-all hover:scale-110"
+          >
             {item.icon}
           </Link>
         );
