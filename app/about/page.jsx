@@ -36,7 +36,7 @@ const page = () => {
           </div>
           <div className="flex h-screen flex-col items-center justify-center gap-y-20 max-md:h-full max-md:py-14">
             <h2 className="text-2xl font-bold text-light">مهارتهای من</h2>
-            <div className="grid grid-cols-3 gap-x-20 gap-y-10 max-md:gap-x-10">
+            <div className="grid grid-cols-3 gap-x-20 gap-y-10 max-md:gap-x-8">
               {skills.map((item, index) => {
                 return (
                   <div
