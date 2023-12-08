@@ -26,7 +26,7 @@ const page = () => {
               {about.map((item, index) => {
                 return (
                   <>
-                    <div className="flex gap-x-3 text-text">
+                    <div key={index} className="flex gap-x-3 text-text">
                       {item.icon} {item.content}
                     </div>
                   </>
@@ -40,6 +40,7 @@ const page = () => {
               {skills.map((item, index) => {
                 return (
                   <div
+                    key={index}
                     className={`${adobe.className} flex flex-col items-center gap-y-1 text-text`}
                   >
                     {item.icon} {item.name}

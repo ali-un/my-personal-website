@@ -10,7 +10,7 @@ const Hero = () => {
           src="/images/profile.jpg"
           width={450}
           height={450}
-          className="rounded-full max-lg:w-[370px] max-sm:h-[220px] max-sm:w-[220px]"
+          className="rounded-full max-lg:w-[370px] max-sm:h-[240px] max-sm:w-[240px]"
           alt=""
         />
       </div>
