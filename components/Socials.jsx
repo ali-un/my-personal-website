@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Socials = () => {
   return (
-    <div className="flex gap-x-4">
+    <div className="flex gap-x-6">
       {socials.map((item, index) => {
         return (
           <Link

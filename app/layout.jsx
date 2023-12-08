@@ -15,7 +15,9 @@ const mikhak = local_font({
 const RootLayout = ({ children }) => {
   return (
     <html lang="fa" dir="rtl">
-      <body className={`${mikhak.className} select-none bg-background`}>
+      <body
+        className={`${mikhak.className} bg-background selection:bg-primary selection:text-background`}
+      >
         <Navigation />
         {children}
       </body>
