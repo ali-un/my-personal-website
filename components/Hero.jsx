@@ -18,8 +18,8 @@ const Hero = () => {
         <h1 className="mb-8 text-7xl font-extrabold text-light max-lg:text-6xl max-sm:text-[2.6rem]">
           علی مصطفوی
         </h1>
-        <p className="mb-10 text-xl font-medium text-text">
-          برنامه نویس و طراح وب
+        <p className="text-md mb-10 font-medium text-text">
+          برنامه نویس، طراح وب، امنیت و شبکه
         </p>
         <div className="mb-10 flex gap-3">
           <button className="rounded-2xl bg-primary px-6 py-[0.6rem] font-medium text-light hover:bg-primary_alt">

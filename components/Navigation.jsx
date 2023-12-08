@@ -10,8 +10,11 @@ const Navigation = () => {
     <>
       <nav className="fixed flex h-16 w-screen items-center justify-between bg-background px-4">
         {/* Logo */}
-        <Link href="/" className="text-4xl font-extrabold text-primary">
-          ع . مـ
+        <Link
+          href="/"
+          className="rounded-2xl rounded-ee-none bg-primary px-4 py-1 text-xl font-extrabold text-background"
+        >
+          علی مصطفوی
         </Link>
         {/* Nav content */}
         <div className="flex items-center gap-x-4 max-lg:hidden">

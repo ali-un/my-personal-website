@@ -12,7 +12,7 @@ const page = () => {
     <>
       <section className="container mx-auto max-w-7xl">
         <div className="grid grid-cols-2 max-lg:grid-cols-1">
-          <div className="flex h-screen flex-col items-start justify-center gap-y-20 px-2 max-lg:items-center max-md:h-full max-md:py-24">
+          <div className="flex h-screen flex-col items-start justify-center gap-y-20 px-3 max-lg:items-center max-md:h-full max-md:py-24">
             <h2 className="text-2xl font-bold text-light">معرفی خودم</h2>
             <p className="text-text">
               سلام. علی مصطفوی هستم در خدمت شما.
