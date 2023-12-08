@@ -94,7 +94,7 @@ const MobileNav = () => {
                   onClick={() => close(!show)}
                   href={item.route}
                   key={index}
-                  className={`rounded-3xl px-10 py-3 text-[1.30rem] font-medium text-light transition-all ${
+                  className={`rounded-2xl px-10 py-2 text-[1.30rem] font-medium text-light transition-all ${
                     active
                       ? "bg-primary hover:text-light"
                       : "hover:text-primary"

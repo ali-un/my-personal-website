@@ -14,7 +14,7 @@ const Navigation = () => {
           href="/"
           className="rounded-2xl rounded-ee-none bg-primary px-4 py-1 text-xl font-extrabold text-background"
         >
-          علی مصطفوی
+          علیـ :)
         </Link>
         {/* Nav content */}
         <div className="flex items-center gap-x-4 max-lg:hidden">
